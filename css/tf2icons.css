@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'tf2-classicons';
+  src:  url('fonts/tf2-classicons.eot?bv99da');
+  src:  url('fonts/tf2-classicons.eot?bv99da#iefix') format('embedded-opentype'),
+    url('fonts/tf2-classicons.ttf?bv99da') format('truetype'),
+    url('fonts/tf2-classicons.woff?bv99da') format('woff'),
+    url('fonts/tf2-classicons.svg?bv99da#tf2-classicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i, .icomoon-liga {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tf2-classicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tf2-Heavy:before {
+  content: "\1f4aa";
+}
+.tf2-Medic:before {
+  content: "\1f497";
+}
+.tf2-Pyro:before {
+  content: "\1f525";
+}
+.tf2-Scout:before {
+  content: "\1f407";
+}
+.tf2-Sniper:before {
+  content: "\1f3b7";
+}
+.tf2-Soldier:before {
+  content: "\1f4a5";
+}
+.tf2-Spy:before {
+  content: "\1f4e6";
+}
+.tf2-Demo:before {
+  content: "\1f4a3";
+}
+.tf2-Engineer:before {
+  content: "\1f527";
+}
+.tf2-FlankSoldier:before {
+  content: "\1f400";
+}
+.tf2-PocketSoldier:before {
+  content: "\1f418";
+}
+.tf2-FlankScout:before {
+  content: "\1f43f";
+}
+.tf2-PocketScout:before {
+  content: "\1f416";
+}
